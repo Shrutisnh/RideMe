@@ -21,7 +21,7 @@ import common.activity.ride.common.R;
 import services.data.OfferedRideData;
 
 /**
- * Created by G09561636 on 8/19/2016.
+ * Created by Shruti Sinha on 8/19/2016.
  */
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.MyViewHolder> {
     private Context mContext;
