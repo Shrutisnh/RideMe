@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Ride Me</string>
+    <string name="findRide">Find a ride</string>
+    <string name="offerRide">Offer a ride</string>
+    <string name="from">From</string>
+    <string name="cityLabel">Please enter the city where you have to take the ride</string>
+    <string name="drop">Drop Location</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="my_account">My Account</string>
+    <string name="cityHint">Enter the name of city where you need a ride</string>
+    <string name="city">city</string>
+    <string name="pickup">Pickup Location</string>
+    <string name="submit">Submit</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="fair">Fair</string>
+    <string name="editTextValidation">Please enter valid</string>
+    <string name="selectionValidation">Please enter valid</string>
+    <string name="endPoint">end point</string>
+    <string name="startingPoint">starting point</string>
+    <string name="logout">Logout</string>
+    <string name="to">to</string>
+    <string name="callOwner">Call Owner</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signUp">SignUp</string>
+    <string name="username_signup">Enter your email id</string>
+    <string name="password_signup">Enter password</string>
+    <string name="confirmPasswordSignup">Confirm password</string>
+    <!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCa5W9QTVuRlxZdlqqLrH2UtFIuauUSQqg</string>-->
+    <string name="Search">Search</string>
+
+</resources>

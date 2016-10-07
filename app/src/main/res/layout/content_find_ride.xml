@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <core.RideMeCustomEditText
+        android:hint="@string/cityHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/city" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityListView"
+        android:visibility="gone" />
+
+    <core.RideMeCustomEditText
+        android:hint="@string/pickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickup"
+        android:drawableRight="@drawable/ic_my_location_black_24dp"
+       />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickupListView"
+        android:visibility="gone"/>
+
+
+    <core.RideMeCustomEditText
+        android:hint="@string/drop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drop"
+        android:drawableRight="@drawable/ic_pin_drop_black_24dp"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dropListView"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/submitFindRide"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:visibility="visible"
+        android:nestedScrollingEnabled="false" />
+
+
+</LinearLayout>

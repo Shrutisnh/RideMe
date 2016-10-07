@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+        <core.RideMeCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fromToLocationText"
+            android:textSize="20dp"
+            android:text="from and to"></core.RideMeCustomTextView>
+        <core.RideMeCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateTimeText"
+            android:text="date time"
+            android:textSize="20dp"
+            android:layout_below="@+id/fromToLocationText"/>
+
+        <core.RideMeCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ownerNameText"
+            android:layout_below="@+id/dateTimeText"
+            android:textSize="20dp"
+            android:text="owner name"/>
+        <core.RideMeCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fairText"
+            android:text="@string/fair"
+            android:textSize="20dp"
+            android:layout_below="@+id/ownerNameText"></core.RideMeCustomTextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/callOwner"
+            android:layout_alignParentRight="true"
+            android:id="@+id/callOwner"
+            android:drawableRight="@drawable/ic_phone_white_24dp"
+            android:background="@drawable/button"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
